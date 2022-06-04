@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- namespace : mapper 인터페이스와 동일하게 맞춰준다 -->
+<mapper namespace="com.example.demo.mapper.TestMapper">
+
+    <select id="findAll" resultType="hashmap">
+        SELECT * FROM MJATEST
+    </select>
+
+</mapper>
